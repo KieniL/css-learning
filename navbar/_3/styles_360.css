@@ -55,14 +55,13 @@ nav {
 .nav_links li {
     display: inline-block; /*Show list items side by side instead of above and below*/
     padding: 0 20px 0 0;
-}
-
-.nav_links li:nth-child(1) {
-    padding: 10px 20px;
+    
 }
 
 .nav_links li a {
     transition: all 0.3s ease 0s;
+    display: block;
+    font-size: 150%;
 }
 
 .nav_links li a:hover {
