@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a, button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none; /*Do not see that these are links*/
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto
+}
+
+header {
+  padding: 30px 10%;
+  grid-column: 1 / 4;
+  display: flex;
+  justify-content: space-between; /*push left and right item to the edges and center the other things*/
+  align-items: center;
+}
+
+footer {
+  background: wheat;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.logo {
+    cursor: pointer;/*How the mouse will be shown on this element*/
+    order: 3; /*Set the order of the child*/
+    margin-left: auto;
+}
+
+nav {
+    order: 1; /*Navbar is the second child
+}
+
+.nav_links {
+    list-style: none; /*Remove dots from list*/
+}
+
+.nav_links li {
+    display: inline-block; /*Show list items side by side instead of above and below*/
+    padding: 0 20px 0 0;
+}
+
+.nav_links li:nth-child(1) {
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;/*How the mouse will be shown on this element*/
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.cta{
+    order: 2;
+}
+
