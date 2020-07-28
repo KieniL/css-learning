@@ -5,6 +5,7 @@ body {
 }
 
 
+
 header {
   background: lightpink;
   padding: 2rem;
@@ -19,6 +20,7 @@ header {
 main {
   background: coral;
   grid-column: 2 / 3;
+  overflow-y:auto; 
 }
 
 .right-sidebar {
